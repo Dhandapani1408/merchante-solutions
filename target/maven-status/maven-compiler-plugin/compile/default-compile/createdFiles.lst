@@ -1,0 +1,9 @@
+utils\Reporter.class
+wdMethods\ProjectMethods.class
+wdMethods\WdMethods.class
+utils\ExcelDataProvider.class
+pages\LandingPage.class
+pages\UserPage.class
+utils\ExtentReporter.class
+wdMethods\SeMethods.class
+apiMethods\ApiMethods.class

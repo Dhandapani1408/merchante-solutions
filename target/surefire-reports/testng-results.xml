@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="17" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="58569" started-at="2020-06-14T14:51:00Z" finished-at="2020-06-14T14:51:58Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="58569" started-at="2020-06-14T14:51:00Z" finished-at="2020-06-14T14:51:58Z">
+      <class name="testCases.api.UsersTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.api.UsersTest@5ab956d7]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-06-14T20:21:07Z" finished-at="2020-06-14T20:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:testCases.api.UsersTest@5ab956d7]" name="test" duration-ms="2924" started-at="2020-06-14T20:21:07Z" finished-at="2020-06-14T20:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.api.UsersTest@5ab956d7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-06-14T20:21:10Z" finished-at="2020-06-14T20:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.api.UsersTest -->
+      <class name="testCases.api.CommentsTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCases.api.CommentsTest@d86a6f]" name="beforeSuite" is-config="true" duration-ms="118" started-at="2020-06-14T20:21:00Z" finished-at="2020-06-14T20:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testCases.api.CommentsTest@d86a6f]" name="beforeTest" is-config="true" duration-ms="2" started-at="2020-06-14T20:21:00Z" finished-at="2020-06-14T20:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.api.CommentsTest@d86a6f]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2020-06-14T20:21:00Z" finished-at="2020-06-14T20:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:testCases.api.CommentsTest@d86a6f]" name="test" duration-ms="4284" started-at="2020-06-14T20:21:00Z" finished-at="2020-06-14T20:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.api.CommentsTest@d86a6f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-06-14T20:21:04Z" finished-at="2020-06-14T20:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.api.CommentsTest@d86a6f]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-06-14T20:21:58Z" finished-at="2020-06-14T20:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCases.api.CommentsTest@d86a6f]" name="afterSuite" is-config="true" duration-ms="179" started-at="2020-06-14T20:21:59Z" finished-at="2020-06-14T20:21:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCases.api.CommentsTest -->
+      <class name="testCases.ui.CreateAndFilterTest">
+        <test-method status="PASS" signature="merchante(java.lang.String)[pri:0, instance:testCases.ui.CreateAndFilterTest@3646a422]" name="merchante" duration-ms="22946" started-at="2020-06-14T20:21:10Z" data-provider="fetchData" finished-at="2020-06-14T20:21:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create New User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- merchante -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.ui.CreateAndFilterTest@3646a422]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-14T20:21:10Z" finished-at="2020-06-14T20:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.ui.CreateAndFilterTest@3646a422]" name="afterMethod" is-config="true" duration-ms="651" started-at="2020-06-14T20:21:33Z" finished-at="2020-06-14T20:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="merchante(java.lang.String)[pri:0, instance:testCases.ui.CreateAndFilterTest@3646a422]" name="merchante" duration-ms="23216" started-at="2020-06-14T20:21:34Z" data-provider="fetchData" finished-at="2020-06-14T20:21:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Filter Options]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- merchante -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.ui.CreateAndFilterTest@3646a422]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-14T20:21:34Z" finished-at="2020-06-14T20:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.ui.CreateAndFilterTest@3646a422]" name="afterMethod" is-config="true" duration-ms="1690" started-at="2020-06-14T20:21:57Z" finished-at="2020-06-14T20:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.ui.CreateAndFilterTest -->
+      <class name="testCases.api.PostsTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.api.PostsTest@2892d68]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-14T20:21:04Z" finished-at="2020-06-14T20:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:testCases.api.PostsTest@2892d68]" name="test" duration-ms="2830" started-at="2020-06-14T20:21:04Z" finished-at="2020-06-14T20:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.api.PostsTest@2892d68]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-06-14T20:21:07Z" finished-at="2020-06-14T20:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.api.PostsTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

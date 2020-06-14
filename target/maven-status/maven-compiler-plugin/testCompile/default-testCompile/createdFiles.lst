@@ -1,0 +1,4 @@
+testCases\api\PostsTest.class
+testCases\api\UsersTest.class
+testCases\api\CommentsTest.class
+testCases\ui\CreateAndFilterTest.class
